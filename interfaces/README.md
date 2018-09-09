@@ -6,7 +6,7 @@ This folder contains interfaces that implement the robot delivery module.
 
 ## **Interface Details**
 
-### [CLI](#cli-details)
+### [CLI](#cli)
 
 This interface allows for a system to execute the simulation via command line and outputs the results to STDOUT. A cache file can be used for storing previous simulations which can be disabled.
 
@@ -33,7 +33,7 @@ robotdelivery -d ^^VV<> --no-cache
 robotdelivery -d ^^VV<> -n 3 --no-cache
 ```
 
-### [HTTP](#http-details)
+### [HTTP](#http)
 
 This interface listens on port :9000 and has 1 endpoint.
 
@@ -45,6 +45,6 @@ GET localhost:9000/directions/%5E%5EVV%3c%3E
 GET localhost:9000/directions/%5E%5EVV%3c%3E/robots/4
 ```
 
-### [CLIENT](#client-details)
+### [CLIENT](#client)
 
 This interface is a web page that uses the module in browser. By using a build tool such as webpack we can use node modules in browser.

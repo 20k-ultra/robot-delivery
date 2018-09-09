@@ -15,7 +15,7 @@ npm install
 Given that there are 3 interfaces to choose from, below are the instructions to run them.
 
 #### CLI
-> click [here](interfaces/README.md/#cli-details) for details
+> click [here](interfaces/README.md/#cli) for details
 
 
 ```
@@ -23,14 +23,14 @@ npm cli-demo
 ```
 
 #### HTTP
-> click [here](interfaces/README.md/#http-details) for details
+> click [here](interfaces/README.md/#http) for details
 
 ```
 npm http-demo
 ```
 
 #### CLIENT
-> click [here](interfaces/README.md/#client-details) for details
+> click [here](interfaces/README.md/#client) for details
 
 ```
 npm client-demo
