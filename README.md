@@ -19,21 +19,21 @@ Given that there are 3 interfaces to choose from, below are the instructions to 
 
 
 ```
-npm cli-demo
+npm run cli-demo
 ```
 
 #### HTTP
 > click [here](interfaces/README.md/#http) for details
 
 ```
-npm http-demo
+npm run http-demo
 ```
 
 #### CLIENT
 > click [here](interfaces/README.md/#client) for details
 
 ```
-npm client-demo
+npm run client-demo
 ```
 
 ## **Running tests**
@@ -41,7 +41,7 @@ npm client-demo
 The tests were written only for the implementation and not the interfaces. To run them do:
 
 ```
-npm tests
+npm run tests
 ```
 
 ## **Design Questions**
