@@ -2,7 +2,7 @@
   "name": "robot-delivery",
   "version": "1.0.0",
   "description": "Robbie the robot and his pals deliver presents to houses.",
-  "main": "simulation.js",
+  "main": "robot-delivery.js",
   "scripts": {
     "demo": "node demo.js",
     "cli-demo": "echo \"Not ready yet\"",
