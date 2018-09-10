@@ -54,3 +54,4 @@ Questions I'd like to go over:
 - Why only allow GET requests ?
 - Why create a module with seperate interfaces?
 - What would you do differently when implementing the HTTP interface in production ?
+- Why did you decide to use a hash map (occupiedSpots) for keeping track of robot positions instead of looping through all the bots and getting their coordinates?
