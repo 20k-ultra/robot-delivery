@@ -1,5 +1,3 @@
-'use strict'
-
 module.exports = (() => {
   class Robot {
     constructor (id, x = 0, y = 0) {
