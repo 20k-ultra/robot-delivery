@@ -10,11 +10,51 @@ cd robot-delivery
 npm install
 ```
 
-## **[Trying it out](#trying-it-out)**
+## **Usage**
+
+```
+const Simulator = require('./robot-delivery').Simulation
+
+let simulation = new Simulator('^^VV<>')
+
+simulation.run()
+```
+
+#### Example
+
+```
+const Simulator = require('./robot-delivery').Simulation
+
+let directions = '^^VV<>' //directions to follow
+
+let simulation = new Simulator(directions, 3) //create Simulator with 3 robots
+
+simulation.run(1) // perform 1 move
+
+simulation.getPositions() // get current positions of robots
+
+simulation.run() // run all moves (won't redo already done directions)
+
+simulation.getHousesWithDeliveries(1)) // get all houses with 1 delivery
+
+simulation.getDeliveriesSum() // get number of deliverys
+
+simulation.getPositions() // get final positions
+
+```
+
+
+## **[Trying it out](#trying-it-out)** (Work in Progress)
+
+Right now no interfaces are complete but a demo is available with:
+
+```
+npm run demo
+```
 
 Given that there are 3 interfaces to choose from, below are the instructions to run them.
 
-#### CLI
+#### CLI 
 > click [here](interfaces/README.md/#cli) for details
 
 

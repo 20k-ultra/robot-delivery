@@ -4,10 +4,11 @@
   "description": "Robbie the robot and his pals deliver presents to houses.",
   "main": "simulation.js",
   "scripts": {
-    "cli-demo": "echo \"Running cli demo\"",
-    "http-demo": "echo \"Running http demo\"",
-    "runtime-demo": "echo \"Running browser demo\"",
-    "tests": "echo \"Running unit tests on module\""
+    "demo": "node demo.js",
+    "cli-demo": "echo \"Not ready yet\"",
+    "http-demo": "echo \"Not ready yet\"",
+    "runtime-demo": "echo \"Not ready yet\"",
+    "tests": "echo \"No tests written\""
   },
   "keywords": [],
   "author": "",
