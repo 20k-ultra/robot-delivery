@@ -98,7 +98,8 @@ module.exports = (() => {
       let _robots = []
       let names = ['robbie', 'jane', 'bob']
       for (let index = 0; index < size; index++) {
-        let bot = new Robot(names[index])
+        let id = index >= names.length ? 'bot-' + (index + 1) : names[index]
+        let bot = new Robot(id)
         _robots.push(bot)
       }
       return _robots
