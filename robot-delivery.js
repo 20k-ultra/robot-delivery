@@ -40,7 +40,7 @@ module.exports = (() => {
   }
 
   class Simulation {
-    constructor (directions, NumOfRobots) {
+    constructor (directions, NumOfRobots = 1) {
       this.directions = directions.toLowerCase()
       this.robots = this._createRobots(NumOfRobots)
       this.map = this._createMap()
