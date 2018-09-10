@@ -9,7 +9,7 @@ git clone https://github.com/20k-ultra/robot-delivery
 cd robot-delivery
 ```
 
-You can try a quick demo with `npm run demo` or see [Trying it out](#trying-it-out) for more info
+You can try a quick demo with `npm run demo` or see [Trying it out](#trying-it-out-work-in-progress) for more info
 
 ## **Usage**
 
