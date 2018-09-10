@@ -51,7 +51,6 @@ module.exports = (() => {
     run (steps = -1) {
       if (!this.initiated) this._putBotsOnMap()
       let _directions = this._getDirections(this.stepsCompleted, steps)
-      console.log(_directions)
       _directions.forEach((direction, index) => { // iterate threw each direction
         let bot = this._getNextRobot(this.robots, this.stepsCompleted) // get robot up for a delivery
         let previousSpot = { x: bot.posX, y: bot.posY } // store previous position
