@@ -7,8 +7,9 @@ NodeJS implementation of the [Robots](robots.md) problem with [interfaces](inter
 ```
 git clone https://github.com/20k-ultra/robot-delivery
 cd robot-delivery
-npm install
 ```
+
+You can try a quick demo with `npm run demo` or see [Trying it out](#trying-it-out) for more info
 
 ## **Usage**
 
@@ -54,7 +55,7 @@ npm run demo
 
 Given that there are 3 interfaces to choose from, below are the instructions to run them.
 
-#### CLI 
+#### CLI
 > click [here](interfaces/README.md/#cli) for details
 
 
