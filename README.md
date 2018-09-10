@@ -45,7 +45,7 @@ simulation.getPositions() // get final positions
 ```
 
 
-## **[Trying it out](#trying-it-out)** (Work in Progress)
+## **Trying it out** (Work in Progress)
 
 Right now no interfaces are complete but a demo is available with:
 
