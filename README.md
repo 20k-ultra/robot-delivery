@@ -47,27 +47,27 @@ simulation.getPositions() // get final positions
 
 ## **Trying it out** (Work in Progress)
 
-Right now no interfaces are complete but a demo is available with:
+The easiest way is to use the premade script by running:
 
 ```
 npm run demo
 ```
 
-Below are the instructions to on how to run one of the interface demos.
+However I've added 2 more interfaces but currently only HTTP is done.
 
 #### HTTP
+
+Using an HTTP client like Postman or cURL you can perform operations on the simulator with this interface. Simply send a POST request to create a simulator and remember your simulator number. Use that simulator number to run other functions on it.
+
+To run this interface you must install the npm dependencies and then run the server. 
+
 > click [here](interfaces/README.md/#http) for details
 
-```
-npm run http-demo
-```
-
 #### CLIENT
-> click [here](interfaces/README.md/#client) for details
 
-```
-npm run client-demo
-```
+Not ready yet.
+
+> click [here](interfaces/README.md/#client) for details
 
 ## **Running tests**
 
