@@ -9,7 +9,7 @@ git clone https://github.com/20k-ultra/robot-delivery
 cd robot-delivery
 ```
 
-You can try a quick demo with `npm run demo` or see [Trying it out](#trying-it-out-work-in-progress) for more info
+You can try a quick demo with `npm run demo` or see [Trying it out](#trying-it-out) for more info
 
 ## **Usage**
 
@@ -44,8 +44,7 @@ simulation.getPositions() // get final positions
 
 ```
 
-
-## **Trying it out** (Work in Progress)
+## **Trying it out**
 
 The easiest way is to use the premade script by running:
 
@@ -59,7 +58,7 @@ However I've added 2 more interfaces but currently only HTTP is done.
 
 Using an HTTP client like Postman or cURL you can perform operations on the simulator with this interface. Simply send a POST request to create a simulator and remember your simulator number. Use that simulator number to run other functions on it.
 
-To run this interface you must install the npm dependencies and then run the server. 
+To run this interface you must install the npm dependencies and then run the server.
 
 > click [here](interfaces/README.md/#http) for details
 
@@ -83,7 +82,6 @@ Questions I'd like to go over:
 
 - Why make a HTTP interface?
 - Why make a JS runtime interface?
-- Why only allow GET requests ?
 - Why create a module with seperate interfaces?
 - What would you do differently when implementing the HTTP interface in production ?
 - Why did you decide to use the map for keeping track of robot positions instead of looping through all the bots and getting their coordinates to see if any were on top of each other?
