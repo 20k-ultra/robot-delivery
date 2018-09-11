@@ -61,10 +61,6 @@ module.exports = (() => {
       })
     }
 
-    clearSteps () {
-      this.stepsCompleted = 0
-    }
-
     getPositions () {
       return this.robots.map(robot => {
         return { name: robot.id, posX: robot.posX, posY: robot.posY }
