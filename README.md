@@ -82,7 +82,7 @@ npm run client-demo
 The tests were written only for the implementation and not the interfaces. To run them do:
 
 ```
-npm run tests
+npm run test
 ```
 
 ## **Design Questions**
