@@ -5,7 +5,6 @@
   "main": "robot-delivery.js",
   "scripts": {
     "demo": "node demo.js",
-    "cli-demo": "echo \"Not ready yet\"",
     "http-demo": "echo \"Not ready yet\"",
     "runtime-demo": "echo \"Not ready yet\"",
     "test": "./node_modules/mocha/bin/mocha"
