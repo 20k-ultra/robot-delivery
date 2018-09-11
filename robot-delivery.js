@@ -67,7 +67,7 @@ module.exports = (() => {
 
     getPositions () {
       return this.robots.map(robot => {
-        return { posX: robot.posX, posY: robot.posY }
+        return { name: robot.id, posX: robot.posX, posY: robot.posY }
       })
     }
 
