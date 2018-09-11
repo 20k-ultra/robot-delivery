@@ -67,7 +67,7 @@ module.exports = (() => {
 
     getPositions () {
       return this.robots.map(robot => {
-        return [robot.posX, robot.posY]
+        return { posX: robot.posX, posY: robot.posY }
       })
     }
 
