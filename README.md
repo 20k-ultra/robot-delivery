@@ -53,15 +53,7 @@ Right now no interfaces are complete but a demo is available with:
 npm run demo
 ```
 
-Given that there are 3 interfaces to choose from, below are the instructions to run them.
-
-#### CLI
-> click [here](interfaces/README.md/#cli) for details
-
-
-```
-npm run cli-demo
-```
+Below are the instructions to on how to run one of the interface demos.
 
 #### HTTP
 > click [here](interfaces/README.md/#http) for details
@@ -89,7 +81,6 @@ npm run test
 
 Questions I'd like to go over:
 
-- Why make a CLI interface?
 - Why make a HTTP interface?
 - Why make a JS runtime interface?
 - Why only allow GET requests ?
