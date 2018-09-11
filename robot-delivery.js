@@ -131,7 +131,7 @@ module.exports = (() => {
 
     _getDirections (lastDirectionCompleted, num) {
       let start = lastDirectionCompleted
-      let length = num > -1 ? lastDirectionCompleted + num : this.directions.length - 1
+      let length = num > -1 ? lastDirectionCompleted + num : this.directions.length
       return this.directions.substring(start, length).split('')
     }
 
